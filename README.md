@@ -2,12 +2,13 @@
 
 Hands-on SOC labs, alert triage, PCAP analysis, and detection engineering.
 
-This repository documents my journey to becoming a SOC Analyst (L1). I'm a BSc Cyber Security student building practical skills through free labs, home lab setups, and real-world investigations.
+I'm a BSc Cyber Security student building practical skills for SOC Analyst (L1) roles through free labs, home lab setups, and real-world investigations.
 
 ---
 
 ## 🎯 Current Focus
-- Alert triage and investigation (LetsDefend, CyberDefenders)
+
+- Alert triage and investigation
 - SIEM fundamentals (Splunk, Wazuh)
 - Network traffic analysis (Wireshark)
 - Detection engineering with Sigma
@@ -19,35 +20,28 @@ This repository documents my journey to becoming a SOC Analyst (L1). I'm a BSc C
 
 | Category | Skills |
 |----------|--------|
-| **SIEM** | Splunk (basics), Wazuh |
-| **Network** | Wireshark, TCP/IP, DNS, HTTP |
-| **OS** | Windows Event Logs, Linux CLI |
-| **Frameworks** | MITRE ATT&CK, Cyber Kill Chain |
-| **Scripting** | Python (basics) |
-| **Detection** | Sigma rules, IOC extraction |
+| SIEM | Splunk (basics), Wazuh |
+| Network | Wireshark, TCP/IP, DNS, HTTP |
+| OS | Windows Event Logs, Linux CLI |
+| Frameworks | MITRE ATT&CK, Cyber Kill Chain |
+| Scripting | Python (basics) |
+| Detection | Sigma rules, IOC extraction |
 
 ---
 
-## 📂 Projects & Labs
+## 📂 What's Inside
 
-| Project | Status | Skills Demonstrated |
-|---------|--------|---------------------|
-| [LetsDefend Alert Triage](letsdefend-triage/) | 🔄 In Progress | Alert analysis, IOC extraction, verdict |
-| [PCAP Analysis Reports](pcap-analysis/) | ⏳ Planned | Wireshark, network forensics |
-| [Sigma Detection Rules](sigma-rules/) | ⏳ Planned | Detection engineering |
-| [Wazuh Home Lab](wazuh-home-lab/) | ⏳ Planned | SIEM setup, log ingestion, alert generation |
-| [Cover6: First Watch](cover6-first-watch/) | ⏳ Planned | Splunk, incident response |
+This repo will contain:
+
+- **Alert triage notes** — step-by-step investigation of SOC alerts
+- **PCAP analysis reports** — Wireshark investigations with IOCs
+- **Sigma rules** — custom detection rules
+- **Cheat sheets** — Windows Event IDs, SPL queries, and quick references
+- **Free resources** — a curated list of no-cost SOC training and tools
+
+Content is added as I complete each lab.
+---
 
 ---
 
-## 📚 Quick References
-
-- [Windows Event IDs Cheat Sheet](windows-event-ids.md)
-- [Splunk SPL Queries](splunk-notes.md)
-- [Free SOC Resources](resources.md)
-
-
-
----
-
-*This repository is actively maintained. Last updated: October 2026.*
+*Actively maintained. Last updated: October 2026.*
