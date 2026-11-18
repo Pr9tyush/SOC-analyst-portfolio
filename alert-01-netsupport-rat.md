@@ -1,7 +1,7 @@
 # Traffic Analysis: The Lucky Turkey (NetSupport RAT)
 
 **Date:** 2026-11-10
-**Analyst:** Pratyush (v1per)
+**Analyst:** Pr9tyush 
 **Verdict:** True Positive (Malware Infection - RAT)
 
 ## Executive Summary
