@@ -5,7 +5,7 @@
 **Verdict:** True Positive (Malware Infection - RAT)
 
 ## Incident Summary
-On 2026-08-06, the Windows host `10.8.6.101` was observed communicating with a Remcos RAT Command and Control (C2) server. The traffic was encrypted and hidden over TCP port 443.
+On 2026-08-06, the Windows host `10.8.6.101` was observed communicating with a Remcos RAT Command and Control (C2) server. The traffic was encrypted and hidden over TCP port 443. Note: The initial infection vector was not captured in the provided PCAP.
 
 ## Victim Details
 - **IP Address:** 10.8.6.101
