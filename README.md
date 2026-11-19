@@ -1,18 +1,16 @@
-# SOC Analyst Portfolio
+# Network Forensics & Malware Analysis
+Cyber Security student focused on incident response, network forensics, and reverse engineering. This repository documents hands-on PCAP analysis and threat hunting.
 
-This repository contains network forensics investigations and malware traffic analysis reports. 
+## 🛡️ Incident Reports
 
-## 🛡️ Incident Reports (Malware Traffic Analysis)
-Analysis of PCAPs using Wireshark to identify Indicators of Compromise (IOCs) and document the attack lifecycle.
+- **Remcos RAT (Post-Infection):** Identified encrypted C2 traffic on port 443, outdated SSLv2 anomalies, and DNS exfiltration to `onboard.radiantfluxstudio.com`. 
+  `letsdefend-triage/alert-03-remcos-rat.md`
 
-| Date | Exercise / Malware | Skills Demonstrated | Report |
-| :--- | :--- | :--- | :--- |
-| 2026-11-13 | ACR/Amatera Stealer (ClearFake) | PowerShell analysis, GitLab payload extraction, C2 identification | [View Report](letsdefend-triage/alert-02-amatera-stealer.md) |
-| 2026-11-10 | NetSupport RAT | HTTP POST analysis, encoded data streams, victim identification | [View Report](letsdefend-triage/alert-01-netsupport-rat.md) |
-| 2026-08-06 | Remcos RAT | TLS/SSL anomaly detection, DNS exfiltration, encrypted C2 | [View Report](letsdefend-triage/alert-03-remcos-rat.md) |
+- **ACR/Amatera Stealer:** Analyzed a ClearFake ClickFix campaign involving fake CAPTCHAs, malicious PowerShell execution, and GitLab payload delivery.
+  `letsdefend-triage/alert-02-amatera-stealer.md`
 
-## 🛠️ Tools & Technologies
-- **Network Analysis:** Wireshark, tcpdump
-- **OSINT / Threat Intel:** VirusTotal, MalwareBazaar
-- **Operating Systems:** Parrot OS, Linux, Windows
-- **Languages:** Python, C, Rust
+- **NetSupport RAT:** Traced HTTP POST beaconing to a C2 server, extracted encoded payloads, and identified the victim user account via Kerberos logs.
+  `letsdefend-triage/alert-01-netsupport-rat.md`
+
+## 🛠️ Tools
+`Wireshark` `tcpdump` `VirusTotal` `Parrot OS` `Python` `C` `Rust`
