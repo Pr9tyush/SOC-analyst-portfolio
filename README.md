@@ -1,47 +1,18 @@
 # SOC Analyst Portfolio
 
-Hands-on SOC labs, alert triage, PCAP analysis, and detection engineering.
+This repository contains network forensics investigations and malware traffic analysis reports. 
 
-I'm a BSc Cyber Security student building practical skills for SOC Analyst (L1) roles through free labs, home lab setups, and real-world investigations.
+## 🛡️ Incident Reports (Malware Traffic Analysis)
+Analysis of PCAPs using Wireshark to identify Indicators of Compromise (IOCs) and document the attack lifecycle.
 
----
+| Date | Exercise / Malware | Skills Demonstrated | Report |
+| :--- | :--- | :--- | :--- |
+| 2026-11-13 | ACR/Amatera Stealer (ClearFake) | PowerShell analysis, GitLab payload extraction, C2 identification | [View Report](letsdefend-triage/alert-02-amatera-stealer.md) |
+| 2026-11-10 | NetSupport RAT | HTTP POST analysis, encoded data streams, victim identification | [View Report](letsdefend-triage/alert-01-netsupport-rat.md) |
+| 2026-08-06 | Remcos RAT | TLS/SSL anomaly detection, DNS exfiltration, encrypted C2 | [View Report](letsdefend-triage/alert-03-remcos-rat.md) |
 
-## 🎯 Current Focus
-
-- Alert triage and investigation
-- SIEM fundamentals (Splunk, Wazuh)
-- Network traffic analysis (Wireshark)
-- Detection engineering with Sigma
-- Windows and Linux log analysis
-
----
-
-## 🛠️ Skills & Tools
-
-| Category | Skills |
-|----------|--------|
-| SIEM | Splunk (basics), Wazuh |
-| Network | Wireshark, TCP/IP, DNS, HTTP |
-| OS | Windows Event Logs, Linux CLI |
-| Frameworks | MITRE ATT&CK, Cyber Kill Chain |
-| Scripting | Python (basics) |
-| Detection | Sigma rules, IOC extraction |
-
----
-
-## 📂 What's Inside
-
-This repo will contain:
-
-- **Alert triage notes** — step-by-step investigation of SOC alerts
-- **PCAP analysis reports** — Wireshark investigations with IOCs
-- **Sigma rules** — custom detection rules
-- **Cheat sheets** — Windows Event IDs, SPL queries, and quick references
-- **Free resources** — a curated list of no-cost SOC training and tools
-
-Content is added as I complete each lab.
----
-
----
-
-*Actively maintained. Last updated: October 2026.*
+## 🛠️ Tools & Technologies
+- **Network Analysis:** Wireshark, tcpdump
+- **OSINT / Threat Intel:** VirusTotal, MalwareBazaar
+- **Operating Systems:** Parrot OS, Linux, Windows
+- **Languages:** Python, C, Rust
